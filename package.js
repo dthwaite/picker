@@ -27,7 +27,7 @@ function configurePackage(api) {
     api.versionsFrom('METEOR@2.4', 'METEOR@3.0-beta.0');
   }
 
-  api.use(['webapp', 'underscore'], ['server']);
+  api.use(['webapp@2.0.0', 'underscore'], ['server']);
   api.addFiles([
     'lib/implementation.js',
     'lib/instance.js',
